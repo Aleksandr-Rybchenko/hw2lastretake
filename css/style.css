@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*,*{
+    padding: 0;
+    margin: 0 auto;
+}
+/*header*/
+.link a:hover, :focus{
+    color: brown;
+}
+.link a {
+    text-decoration: none;
+    color: #FF0000;
+}
+body{
+    background-color: white;
+}
+.header{
+    max-width: 1280px;
+    text-align: center;
+}
+.nav-menu ul {
+    display: inline-block;
+    list-style: none;
+    padding-top: 25.5px;
+
+}
+.nav-menu li {
+    display: inline-block;
+}
+.nav-menu li + li {
+    margin-left: 72px;
+}
+
+.header, link {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2.7px;
+}
+
+/*header*/
+
+/*main*/
+.main{
+    width: 1280px;
+    padding-top: 25.5px;
+}
+.main, .back, img{
+    max-width: 100%;
+}
+.h2_name{
+    text-align: center;
+    padding-top: 49px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #373737;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+}
+.text{
+    padding-top: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.4px;
+}
+
+.text2{
+    padding-top: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.4px;
+}
+.button{
+    text-align: center;
+    padding-top: 84px;
+
+}
+.button-1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    align-items: center;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-radius: 4px;
+    width: 191px;
+    height: 51px;
+    padding: 18px 42px;
+}
+
+/*main end*/
+.footer{
+    width: 1280px;
+}
+.tit{
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    color: #373737;
+}
+.title {
+    text-align: right;
+    padding: 82px 105px 29px 0;
+   
+}
